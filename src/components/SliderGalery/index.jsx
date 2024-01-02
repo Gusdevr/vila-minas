@@ -1,6 +1,6 @@
+// SliderGalery.jsx
 import React, { useRef, useEffect } from 'react';
-import 'react-awesome-slider/dist/styles.css';
-import { StyledAwesomeSlider } from './styles';
+import { StyledSlickSlider } from './styles';  // Importe StyledSlickSlider
 import SliderOneJpg from '../../assets/img/ouropreto3.jpeg';
 import SliderTwoJpg from '../../assets/img/inhotim.jpg';
 import SliderTreeJpg from '../../assets/img/ouropreton.jpg';
@@ -23,25 +23,29 @@ const SliderGalery = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (sliderRef.current && sliderRef.current.element) {
-        sliderRef.current.element.style.transition = 'transform 0.5s ease-in-out';
-        sliderRef.current.next();
+      if (sliderRef.current) {
+        sliderRef.current.slickNext();
       }
-    }, 5000);  
-  
+    }, 5000);
+
     return () => {
       clearInterval(interval);
     };
   }, []);
-  
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
+  };
+
   return (
-    <StyledAwesomeSlider
-      animation="fallAnimation"
-      customArrow={<CustomPrevArrow />} 
-      organicArrows={false}
-      bullets={false}
-      ref={sliderRef}
-    >
+    <StyledSlickSlider {...settings} ref={sliderRef}>
       <div className='imagezero'>
         <img src={SliderOneJpg} alt="Image 0" />
       </div>
@@ -54,7 +58,7 @@ const SliderGalery = () => {
       <div>
         <img src={SliderTwoJpg} alt="Image 3" />
       </div>
-    </StyledAwesomeSlider>
+    </StyledSlickSlider>
   );
 };
 

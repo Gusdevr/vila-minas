@@ -55,7 +55,7 @@ export const ContainerHeader = styled.div`
     flex-direction: column;
 
     img {
-      margin-top: 5px;
+      margin-top: npm5px;
     }
   }
 
