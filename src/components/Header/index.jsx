@@ -50,13 +50,13 @@ const Header = () => {
       <a href="/"> <img width={'260px'} src={ VilaPng } alt="" /> </a>
       <nav>
         <ul>
-          <li>Início</li>
-          <li>Quem Somos</li>
-          <li>Passeios</li>
-          <li>Pacotes</li>
-          <li>Promoção</li>
-          <li>Galeria</li>
-          <li>Contato</li>
+          <a href=""><li>Início</li></a>
+          <a href=""><li>Quem Somos</li></a>
+          <a href=""><li>Passeios</li></a>
+          {/* <li>Pacotes</li> */}
+          <a href=""><li>Promoção</li></a>
+          <a href=""><li>Galeria</li></a>
+         <a href=""><li>Contato</li></a>
         </ul>
       </nav>
       <div className='social-icons'>
@@ -101,13 +101,13 @@ const Header = () => {
         {isMenuGridROpen && (
           <ul className="dropdown-responsi">
             <a href="/">
-            <li>Início</li>
-          <li>Quem Somos</li>
-          <li>Passeios</li>
-          <li>Pacotes</li>
-          <li>Promoção</li>
-          <li>Galeria</li>
-          <li>Contato</li>
+            <a href=""><li>Início</li></a>
+          <a href=""><li>Quem Somos</li></a>
+          <a href=""><li>Passeios</li></a>
+          {/* <li>Pacotes</li> */}
+          <a href=""><li>Promoção</li></a>
+          <a href=""><li>Galeria</li></a>
+          <a href=""><li>Contato</li></a>
             </a>
           
           </ul>

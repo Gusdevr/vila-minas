@@ -93,6 +93,16 @@ export const ContainerHeader = styled.div`
   ul li {
     font-weight: 500;
     font-size: 20px;
+
+    :hover{
+      color: #ff914d;
+      font-size: 22px;
+    }
+  }
+
+   a {
+   text-decoration: none;
+   color: #1d3a5d;
   }
 
 .social-icons {
