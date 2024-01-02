@@ -9,7 +9,7 @@ function Router() {
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/quemsomos' element={<QuemSomos />} />
+                <Route path='quemsomos' element={<QuemSomos />} />
          
           
            

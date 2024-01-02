@@ -51,7 +51,7 @@ const Header = () => {
       <nav>
         <ul>
           <a href=""><li>Início</li></a>
-          <a href="/quemsomos"><li>Quem Somos</li></a>
+          <a href="quemsomos"><li>Quem Somos</li></a>
           <a href=""><li>Passeios</li></a>
           {/* <li>Pacotes</li> */}
           <a href=""><li>Promoção</li></a>
@@ -102,7 +102,7 @@ const Header = () => {
           <ul className="dropdown-responsi">
             <a href="/">
             <a href=""><li>Início</li></a>
-          <a href="/quemsomos"><li>Quem Somos</li></a>
+          <a href="quemsomos"><li>Quem Somos</li></a>
           <a href=""><li>Passeios</li></a>
           {/* <li>Pacotes</li> */}
           <a href=""><li>Promoção</li></a>
