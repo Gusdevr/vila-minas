@@ -73,7 +73,7 @@ const Home = () => {
 
         <div className='sec-pass'>
           <a href=""><button>Passeios Diários</button></a>
-          <a href=""><button>Pacotes de Viagem</button></a>
+          {/* <a href=""><button>Pacotes de Viagem</button></a> */}
 
         </div>
 

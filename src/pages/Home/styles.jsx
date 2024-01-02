@@ -30,6 +30,7 @@ export const SectionUs = styled.section`
     @media screen and (max-width: 768px){
       width: 100%;
       flex-direction: column;
+      margin-top: -350px;
       
     }
 
@@ -110,6 +111,15 @@ export const SectionProduct = styled.section`
         color: #fff;
         font-size: 15px;
         font-weight: 500;
+      }
+
+      @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: 1500px;
+
       }
       
     }
@@ -294,6 +304,10 @@ height: 550px;
 @media screen and (max-width: 768px) {
   flex-direction: column;
 
+  h2 {
+    margin-bottom: 50px;
+  }
+
 }
 
  h2 {
@@ -350,6 +364,10 @@ img {
  background-color: #1d3a5d;
  color: #fff;
  font-size: 18px;
+
+ @media screen and (max-width: 768px) {
+  margin-left: 125px;
+ }
 
 }
   
