@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
+import MapaEmbed from '../../components/MapaEmbed'
+
 import UsBnanerPng from '../../assets/img/bannerminas.jpg'
 
 import 
@@ -27,6 +29,8 @@ const QuemSomos = () => {
             Tudo isto com Conforto, Segurança e a Pontualidade que 
             só a Vila Minas Turismo traz para você.</p>
         </div>  
+
+       <MapaEmbed />
 
        <Footer />
     </ContentUs>
