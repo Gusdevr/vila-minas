@@ -5,18 +5,33 @@ export const ContentTour =  styled.div`
     justify-content: center;
 
 
+    span {
+        margin-bottom: 200px;
+        margin-left: 450px;
+        font-size: 40px;
+        position: absolute;
+        color: red;
+        font-weight: 700;
+    }
+
+
     h1 {
         position: absolute;
         margin-top: 200px;
+        font-size: 40px;
     }
 
     p {
         position: absolute;
-        margin-top: 250px;
+        margin-top: 50px;
         max-width: 500px;
         line-height: 150%;
         text-align: center;
         font-size: 18px;
+    }
+
+    h2 {
+        margin-bottom: 150px;
     }
 
     .Gallery-tour {
@@ -30,6 +45,7 @@ export const ContentTour =  styled.div`
         img {
             width: 400px;
             border-radius: 8px;
+            cursor: pointer;
         }
 
         a {
@@ -40,12 +56,33 @@ export const ContentTour =  styled.div`
             
         }
 
-        button {
-            position: absolute;
-            margin-right: 100px;
-        }
+     
         
     }
+
+    .modal {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin-top: 550px;
+        background-color: #000000c1;
+        color: #fff;
+        width: 500px;
+        height: 250px;
+        line-height: 150%;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .modal-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      
+    }
+
+   
 
    
 `
