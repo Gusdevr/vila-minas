@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import Whatsap from '../../components/Whatsap'
 
 import MapaEmbed from '../../components/MapaEmbed'
 
@@ -18,6 +19,7 @@ const QuemSomos = () => {
     <ContentUs>
     
         <Header />
+        <Whatsap />
 
 
         <div className='galery-us'>

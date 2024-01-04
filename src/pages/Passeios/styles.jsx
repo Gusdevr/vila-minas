@@ -4,6 +4,8 @@ export const ContentTour =  styled.div`
     display: flex;
     justify-content: center;
 
+   
+
 
     span {
         margin-bottom: 200px;
@@ -28,6 +30,12 @@ export const ContentTour =  styled.div`
         line-height: 150%;
         text-align: center;
         font-size: 18px;
+
+        @media screen and (max-width: 768px) {
+       display: none;
+          
+            
+        }
     }
 
     h2 {
@@ -42,10 +50,27 @@ export const ContentTour =  styled.div`
         justify-content: center;
         margin-top: 400px;
 
+        @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          
+            
+        }
+
         img {
             width: 400px;
             border-radius: 8px;
             cursor: pointer;
+
+            @media screen and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 300px;
+            
+        }
+
         }
 
         a {
@@ -72,6 +97,11 @@ export const ContentTour =  styled.div`
         line-height: 150%;
         border-radius: 5px;
         cursor: pointer;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+            
+        }
     }
 
     .modal-content {

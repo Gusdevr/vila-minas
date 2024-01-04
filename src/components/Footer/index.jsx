@@ -27,8 +27,8 @@ const Footer = () => {
     <div className='article-footer'>
 
 <h5>Vila Minas Turismo e Receptivo</h5>
-<p>Rua Maria das Graças, 159 - SL 50,<br /> 
-Santa Luzia, Belo Horizonte MG
+<p>Rua do divino, 170 <br /> 
+São Benedito - Santa Luzia MG
 </p>
 <span>contato@vilaminas.com.br</span>
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ContentTour } from './styles';
 import Header from '../../components/Header';
+import Whatsap from '../../components/Whatsap';
 
 import BHJpg from '../../assets/img/imgtour/destinoBeloHorizonte.jpg';
 import CapJpg from '../../assets/img/imgtour/destinoCapitolio.jpg';
@@ -71,6 +72,8 @@ const Passeios = () => {
   return (
     <ContentTour>
       <Header />
+      <Whatsap />
+
       <h1>Passeios</h1>
       <p>Nossos Passeios incluem transporte da empresa,
         Guia de Turismo e almoço típico da região.

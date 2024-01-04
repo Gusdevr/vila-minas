@@ -38,6 +38,10 @@ export const ContainerFooter =  styled.footer`
     flex-direction: column;
     color: #fff;
 
+    p {
+        line-height: 150%;
+    }
+
     @media screen and (max-width: 768px) {
         flex-direction: column;
         display: flex;

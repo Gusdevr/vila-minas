@@ -22,6 +22,12 @@ export const ContainerHeader = styled.div`
     margin-top: 65px;
     margin-right: 25px;
 
+    @media screen and (max-width: 768px) {
+            margin-top: 90px;
+          
+            
+        }
+
     ul li {
       margin-left: 50px;
       font-weight: 700;

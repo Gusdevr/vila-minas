@@ -4,6 +4,8 @@ import Home from "./src/pages/Home"
 import QuemSomos from "./src/pages/QuemSomos"
 import Passeios from "./src/pages/Passeios"
 import Promocao from "./src/pages/Promocao"
+import Contato from "./src/pages/Contato"
+import Galeria from "./src/pages/Galeria"
 
 function Router() {
     return (
@@ -13,6 +15,8 @@ function Router() {
                 <Route path='quemsomos' element={<QuemSomos />} />
                 <Route path='passeios' element={<Passeios />} />
                 <Route path='promocao' element={<Promocao />} />
+                <Route path='contato' element={<Contato />} />
+                <Route path='galeria' element={<Galeria />} />
          
           
            
