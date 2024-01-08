@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { ContainerHeader } from './styles'
 import VilaPng from '../../assets/img/vilalogo.png'
-
+import { Link } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa'
 import { CgMenuGridR } from 'react-icons/cg'
 
@@ -50,8 +50,8 @@ const Header = () => {
       <a href="/"> <img width={'260px'} src={ VilaPng } alt="" /> </a>
       <nav>
         <ul>
-          <a href="/"><li>Início</li></a>
-          <a href="/quemsomos"><li>Quem Somos</li></a>
+          <link to="/"><li>Início</li></link>
+          <link to="/quemsomos"><li>Quem Somos</li></link>
           <a href="/passeios"><li>Passeios</li></a>
           {/* <li>Pacotes</li> */}
           <a href="/promocao"><li>Promoção</li></a>
