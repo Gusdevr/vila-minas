@@ -50,8 +50,8 @@ const Header = () => {
       <a href="/"> <img width={'260px'} src={ VilaPng } alt="" /> </a>
       <nav>
         <ul>
-          <link to="/"><li>Início</li></link>
-          <link to="/quemsomos"><li>Quem Somos</li></link>
+          <Link to="/"><li>Início</li></Link>
+          <Link to="/quemsomos"><li>Quem Somos</li></Link>
           <a href="/passeios"><li>Passeios</li></a>
           {/* <li>Pacotes</li> */}
           <a href="/promocao"><li>Promoção</li></a>
