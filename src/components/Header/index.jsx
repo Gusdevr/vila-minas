@@ -52,7 +52,7 @@ const Header = () => {
         <ul>
           <Link to="/"><li>Início</li></Link>
           <Link to="/quemsomos"><li>Quem Somos</li></Link>
-          <a href="/passeios"><li>Passeios</li></a>
+          <Link to="/passeios"><li>Passeios</li></Link>
           {/* <li>Pacotes</li> */}
           <Link to="/promocao"><li>Promoção</li></Link>
           {/* <a href="galeria"><li>Galeria</li></a> */}
