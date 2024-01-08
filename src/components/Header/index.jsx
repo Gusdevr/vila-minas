@@ -51,12 +51,12 @@ const Header = () => {
       <nav>
         <ul>
           <a href="/"><li>Início</li></a>
-          <a href="quemsomos"><li>Quem Somos</li></a>
-          <a href="passeios"><li>Passeios</li></a>
+          <a href="/quemsomos"><li>Quem Somos</li></a>
+          <a href="/passeios"><li>Passeios</li></a>
           {/* <li>Pacotes</li> */}
-          <a href="promocao"><li>Promoção</li></a>
+          <a href="/promocao"><li>Promoção</li></a>
           {/* <a href="galeria"><li>Galeria</li></a> */}
-         <a href="contato"><li>Contato</li></a>
+         <a href="/contato"><li>Contato</li></a>
         </ul>
       </nav>
       <div className='social-icons'>
