@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from 'react';
 import { StyledSlickSlider } from './styles';  // Importe StyledSlickSlider
 import SliderOneJpg from '../../assets/img/ouropreto3.jpeg';
 import SliderTwoJpg from '../../assets/img/inhotim.jpg';
-import SliderTreeJpg from '../../assets/img/ouropreton.jpg';
+import SliderTreeJpg from '../../assets/img/ouropretos.jpg';
 import SliderFourJpg from '../../assets/img/ouropretou.jpg';
 
 const CustomPrevArrow = ({ onClick }) => (

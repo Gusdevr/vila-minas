@@ -55,7 +55,7 @@ const Header = () => {
           <a href="passeios"><li>Passeios</li></a>
           {/* <li>Pacotes</li> */}
           <a href="promocao"><li>Promoção</li></a>
-          <a href="galeria"><li>Galeria</li></a>
+          {/* <a href="galeria"><li>Galeria</li></a> */}
          <a href="contato"><li>Contato</li></a>
         </ul>
       </nav>
@@ -106,7 +106,7 @@ const Header = () => {
           <a href="passeios"><li>Passeios</li></a>
           {/* <li>Pacotes</li> */}
           <a href="promocao"><li>Promoção</li></a>
-          <a href=""><li>Galeria</li></a>
+          {/* <a href=""><li>Galeria</li></a> */}
           <a href="contato"><li>Contato</li></a>
             </a>
           
