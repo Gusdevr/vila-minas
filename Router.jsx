@@ -7,7 +7,7 @@ import Promocao from "./src/pages/Promocao"
 import Contato from "./src/pages/Contato"
 import Galeria from "./src/pages/Galeria"
 
-function Router() {
+const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
