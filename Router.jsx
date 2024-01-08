@@ -17,11 +17,7 @@ function Router() {
                 <Route path='promocao' element={<Promocao />} />
                 <Route path='contato' element={<Contato />} />
                 <Route path='galeria' element={<Galeria />} />
-         
-          
-           
-
-    
+            
             </Routes>
         </BrowserRouter>
     )
