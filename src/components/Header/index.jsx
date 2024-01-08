@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { ContainerHeader } from './styles'
 import VilaPng from '../../assets/img/vilalogo.png'
 
-import { FaChevronDown, FaTimes } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
 import { CgMenuGridR } from 'react-icons/cg'
 
 import 
