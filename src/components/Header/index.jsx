@@ -54,20 +54,20 @@ const Header = () => {
           <Link to="/quemsomos"><li>Quem Somos</li></Link>
           <a href="/passeios"><li>Passeios</li></a>
           {/* <li>Pacotes</li> */}
-          <a href="/promocao"><li>Promoção</li></a>
+          <Link to="/promocao"><li>Promoção</li></Link>
           {/* <a href="galeria"><li>Galeria</li></a> */}
-         <a href="/contato"><li>Contato</li></a>
+         <Link to="/contato"><li>Contato</li></Link>
         </ul>
       </nav>
       <div className='social-icons'>
-        <a href=""><FaSquareInstagram size={'30px'} style={{
+        <Link to=""><FaSquareInstagram size={'30px'} style={{
           display: 'flex', alignItems: 'center', color: 'black'
-          }} /></a>
+          }} /></Link>
           
-      <a href=""><FaSquareFacebook size={'30px'} style={{
+      <Link to=""><FaSquareFacebook size={'30px'} style={{
         display: 'flex', alignItems: 'center', color: 'black'
         
-        }} /></a>
+        }} /></Link>
       </div>
 
       <div className="menu-responsi">
@@ -100,15 +100,15 @@ const Header = () => {
         )}
         {isMenuGridROpen && (
           <ul className="dropdown-responsi">
-            <a href="/">
-            <a href="/"><li>Início</li></a>
-          <a href="quemsomos"><li>Quem Somos</li></a>
-          <a href="passeios"><li>Passeios</li></a>
+            <Link to="/">
+            <Link to="/"><li>Início</li></Link>
+          <Link to="quemsomos"><li>Quem Somos</li></Link>
+          <Link to="passeios"><li>Passeios</li></Link>
           {/* <li>Pacotes</li> */}
-          <a href="promocao"><li>Promoção</li></a>
+          <Link to="promocao"><li>Promoção</li></Link>
           {/* <a href=""><li>Galeria</li></a> */}
-          <a href="contato"><li>Contato</li></a>
-            </a>
+          <Link to="contato"><li>Contato</li></Link>
+            </Link>
           
           </ul>
         )}
