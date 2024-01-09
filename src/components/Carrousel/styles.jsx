@@ -22,6 +22,10 @@ export const StyledSlickSlider = styled(Slider)`
   
   }
 
+  h3 {
+    color: #fff;
+  }
+
   .slick-prev,
   .slick-next {
     /* font-size: 24px;

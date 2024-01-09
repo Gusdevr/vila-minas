@@ -5,6 +5,16 @@ import { StyledSlickSlider } from './styles';  // Importe StyledSlickSlider
 import BHJpg from '../../assets/img/imgcarrousel/destinoBeloHorizonte.jpg'
 import CapitolioJpg from '../../assets/img/imgcarrousel/destinoCapitolio.jpg'
 import GrutaJpg from '../../assets/img/imgcarrousel/destinoGrutaMaquine.jpg'
+import InhotimPng from '../../assets/img/imgcarrousel/destinoInhotim.jpg'
+
+import MariJpg from '../../assets/img/imgcarrousel/destinoMariana.jpg'
+import OuroPJpg from '../../assets/img/imgcarrousel/destinoOuroPreto.jpg'
+import SabaPng from '../../assets/img/imgcarrousel/destinoSabara.jpg'
+
+import SaoJDRJpg from '../../assets/img/imgcarrousel/destinoSaoJoaoDelRei.jpg'
+import TiraDJpg from '../../assets/img/imgcarrousel/destinoTiradentes.png'
+import ReiMatoPng from '../../assets/img/imgcarrousel/destinoSatuarioCaraca.jpg'
+
 
 const CustomPrevArrow = ({ onClick }) => (
   <button className="custom-arrow" onClick={onClick}>
@@ -36,28 +46,63 @@ const SliderGalery = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
+    speed: 600,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    arrows: true,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 8000,
   };
 
   return (
     <StyledSlickSlider {...settings} ref={sliderRef}>
       <div className='imagezero'>
+        <h3>Belo Horizonte</h3>
         <img src={BHJpg} alt="Image 0" />
       </div>
       <div>
+        <h3>Congonhas</h3>
         <img src={CapitolioJpg} alt="Image 1" />
       </div>
       <div>
+        <h3>Gruta Maquiné</h3>
         <img src={GrutaJpg} alt="Image 2" />
       </div>
       <div>
-        <img src={CapitolioJpg} alt="Image 3" />
+      <h3>Inhontim</h3>
+        <img src={InhotimPng} alt="Image 3" />
       </div>
+
+      <div className='imagezero'>
+      <h3>Mariana</h3>
+        <img src={MariJpg} alt="Image 0" />
+      </div>
+
+      <div className='imagezero'>
+      <h3>Ouro Preto</h3>
+        <img src={OuroPJpg} alt="Image 0" />
+      </div>
+
+      <div className='imagezero'>
+      <h3>Sabará</h3>
+        <img src={SabaPng} alt="Image 0" />
+      </div>
+
+      <div className='imagezero'>
+      <h3>São João Del Rei</h3>
+        <img src={SaoJDRJpg} alt="Image 0" />
+      </div>
+
+      <div className='imagezero'>
+      <h3>Tiradentes</h3>
+        <img src={TiraDJpg} alt="Image 0" />
+      </div>
+
+      <div className='imagezero'>
+      <h3>Gruta Rei do Mato</h3>
+        <img src={ReiMatoPng} alt="Image 0" />
+      </div>
+
     </StyledSlickSlider>
   );
 };

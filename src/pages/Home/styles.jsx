@@ -80,37 +80,38 @@ export const SectionProduct = styled.section`
       background-color: #1d3a5d;
       padding-top: 6px;
       border-radius: 6px;
-      cursor: pointer;
+    
       text-align: center;
     
-
-      :hover {
-        border: solid 1px #fff;
-        border-color: #fff;
-        background-color: transparent;
-        transition: 600ms;
-        color: #1d3a5d;
-      }
     }
 
 
     }
 
+   
     .sec-pass {
       display: flex;
       position: absolute;
       margin-top: 550px;
       gap: 10px;
 
+
       button {
         width: 200px;
-        height: 40px;
+        height: 60px;
         border-radius: 5px;
         border: none;
         background-color: #1d3a5d;
         color: #fff;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
+        cursor: pointer;
+
+        :hover {
+          background-color: #ff914d;
+          color: #1d3a5d;
+          font-weight: 700;
+        }
       }
 
       @media screen and (max-width: 768px) {
@@ -119,6 +120,7 @@ export const SectionProduct = styled.section`
         justify-content: center;
         margin-left: 100px;
         margin-top: 1500px;
+        font-size: 20px;
 
       }
       

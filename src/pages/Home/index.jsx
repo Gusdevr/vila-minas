@@ -13,9 +13,9 @@ import
 } 
 from './styles'
 
-import IMG1PNG from '../../assets/img/IMG_0187.jpg'
+import IMG1PNG from '../../assets/img/igreja-ouro-preto.jpg'
 import IMG2PNG from '../../assets/img/IMG_0314.jpg'
-import IMG3PNG from '../../assets/img/IMG_0685.jpg'
+import IMG3PNG from '../../assets/img/Mariana-MG.jpg'
 import CardiviaJpg from '../../assets/img/bannerminas.jpg'
 
 import HostPng from '../../assets/img/iconservices/hospedagem.png'
@@ -52,27 +52,27 @@ const Home = () => {
 
 <article className='art-cort'>
           <img className='img-cort'  src={IMG1PNG} alt="" />
-         <a href="https://www.instagram.com/ismaeldeccor/"  target='blank'><h3>Ouro Preto</h3> </a> 
+        <h3>Ouro Preto</h3> 
  
 
         </article>
 
         <article className='art-persi'>
           <img src={IMG2PNG} alt="" />
-         <a href="https://www.instagram.com/ismaeldeccor/" target='blank'> <h3>Inhotim</h3></a>
+         <h3>Inhotim</h3>
        
 
         </article>
 
         <article className='art-service'>
           <img  src={IMG3PNG} alt="" />
-          <a href="https://www.instagram.com/ismaeldeccor/"  target='blank'><h3>Mariana</h3></a>
+          <h3>Mariana</h3>
        
 
         </article>
 
         <div className='sec-pass'>
-          <a href=""><button>Passeios Diários</button></a>
+          <a href="/passeios"><button>Confira nosso roteiro completo</button></a>
           {/* <a href=""><button>Pacotes de Viagem</button></a> */}
 
         </div>
@@ -80,11 +80,11 @@ const Home = () => {
         <SectionAbout>
           <h1>Quem Somos</h1>
 
-          <p>Bem-vindo à Vila Minas, sua agência de turismo receptivo dedicada a proporcionar 
+          <p>Bem-vindo à Villa Minas, sua agência de turismo receptivo dedicada a proporcionar 
             experiências inesquecíveis nas fascinantes cidades históricas de Minas Gerais. 
             Com um profundo amor pela cultura, história e beleza natural dessa região, a Vila Minas 
             tem o compromisso de tornar sua viagem uma jornada autêntica e enriquecedora.
-            Na Vila Minas, nossa missão é conectar os viajantes com o rico patrimônio histórico 
+            Na Villa Minas, nossa missão é conectar os viajantes com o rico patrimônio histórico 
             e cultural de Minas Gerais. Acreditamos que cada cidade tem uma história única a contar,
             proporcionando uma imersão profunda na riqueza cultural que permeia cada rua, igreja 
             e praça dessas cidades históricas. 

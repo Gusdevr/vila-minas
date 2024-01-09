@@ -102,12 +102,12 @@ const Header = () => {
           <ul className="dropdown-responsi">
             <Link to="/">
             <Link to="/"><li>Início</li></Link>
-          <Link to="quemsomos"><li>Quem Somos</li></Link>
-          <Link to="passeios"><li>Passeios</li></Link>
+          <Link to="/quemsomos"><li>Quem Somos</li></Link>
+          <Link to="/passeios"><li>Passeios</li></Link>
           {/* <li>Pacotes</li> */}
-          <Link to="promocao"><li>Promoção</li></Link>
+          <Link to="/promocao"><li>Promoção</li></Link>
           {/* <a href=""><li>Galeria</li></a> */}
-          <Link to="contato"><li>Contato</li></Link>
+          <Link to="/contato"><li>Contato</li></Link>
             </Link>
           
           </ul>

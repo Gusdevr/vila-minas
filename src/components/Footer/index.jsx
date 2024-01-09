@@ -26,11 +26,11 @@ const Footer = () => {
 
     <div className='article-footer'>
 
-<h5>Vila Minas Turismo e Receptivo</h5>
+<h5>Villa Minas Turismo e Receptivo</h5>
 <p>Rua do divino, 170 <br /> 
 São Benedito - Santa Luzia MG
 </p>
-<span>contato@vilaminas.com.br</span>
+<span>contato@villaminas.com.br</span>
 
 <img className='minas-flag' src={MinasLogPng} alt="" />
 </div>
@@ -46,7 +46,7 @@ São Benedito - Santa Luzia MG
   
 
 <div className='copy-footer'>
-<p>&copy;2023 Vila Minas - Todos direitos reservados.</p>
+<p>&copy;2023 Villa Minas - Todos direitos reservados.</p>
 </div>
     </ContainerFooter>
   )
