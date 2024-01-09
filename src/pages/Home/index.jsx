@@ -1,5 +1,6 @@
 import React from 'react'
 import Carrousel from '../../components/Carrousel'
+import { Link } from 'react-router-dom'
 
 import 
 { 
@@ -72,7 +73,7 @@ const Home = () => {
         </article>
 
         <div className='sec-pass'>
-          <a href="/passeios"><button>Confira nosso roteiro completo</button></a>
+          <Link to="/passeios"><button>Confira nosso roteiro completo</button></Link>
           {/* <a href=""><button>Pacotes de Viagem</button></a> */}
 
         </div>

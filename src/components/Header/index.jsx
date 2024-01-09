@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { ContainerHeader } from './styles'
 import VilaPng from '../../assets/img/vilalogo.png'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import { FaTimes } from 'react-icons/fa'
 import { CgMenuGridR } from 'react-icons/cg'
 
