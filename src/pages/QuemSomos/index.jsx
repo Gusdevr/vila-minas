@@ -25,11 +25,15 @@ const QuemSomos = () => {
         <div className='galery-us'>
         <h1>Quem Somos</h1>
         <img src={ UsBnanerPng } alt="" />
-        <p>Somos uma Agência especializada em Receptivo Turístico e 
-            atuamos também no Transporte Executivo através de Aluguel 
-            de Veículos de Passeio, Vans, Micro-Ônibus e Ônibus. 
-            Tudo isto com Conforto, Segurança e a Pontualidade que 
-            só a Vila Minas Turismo traz para você.</p>
+        <p>
+          Somos especializados em receptivo turístico em Minas Gerais, 
+          oferecendo translados, roteiros e passeios exclusivos ou compartilhados. 
+          As experiências exclusivas vão além dos destinos populares, enquanto os passeios 
+          compartilhados têm saídas diárias conforme a demanda. Destacamos nossos passeios 
+          exclusivos com itinerários mais abrangentes e introduzimos roteiros com hospedagem 
+          nas cidades históricas, revelando os tesouros ocultos de cada região. Em Minas Gerais, 
+          não faltam lugares para desfrutar de um bom café com pão de queijo. Venha explorar 
+          esse rico patrimônio conosco!</p>
         </div>  
 
        <MapaEmbed />

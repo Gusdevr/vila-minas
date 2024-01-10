@@ -11,8 +11,8 @@ import MariJpg from '../../assets/img/imgtour/destinoMariana.jpg';
 import OuroJpg from '../../assets/img/imgtour/destinoOuroPreto.jpg';
 import SabaJpg from '../../assets/img/imgtour/destinoSabara.jpg';
 import SaoJpg from '../../assets/img/imgtour/destinoSaoJoaoDelRei.jpg';
-import SantJpg from '../../assets/img/imgtour/destinoSatuarioCaraca.jpg';
 import TiraJpg from '../../assets/img/imgtour/destinoTiradentes.png';
+import GrutaMatoPng from '../../assets/img/grutarei-mato.png'
 
 const Passeios = () => {
   const [showModal, setShowModal] = useState(false);
@@ -41,7 +41,7 @@ const Passeios = () => {
     'com expressivo conjunto de riqueza barroca do artista Aleijadinho.' + 
     'No adro do Santuário do Bom Jesus de Matozinhos, Aleijadinho esculpiu em pedra sabão as famosas imagens de doze' + 
     'profetas em tamanho real que são visitadas anualmente por milhares de turistas do Brasil e de todo Mundo' },
-    { img: GrutaJpg, name: 'Gruta Maquiné', description: 'Uma viagem subterrânea em meio às belezas naturais' + 
+    { img: GrutaMatoPng, name: 'Gruta Maquiné/Rei do Mato', description: 'Uma viagem subterrânea em meio às belezas naturais' + 
     'garantida para quem visita a Gruta do Maquiné, localizada na cidade de Cordisburgo, a 120 km de Belo Horizonte.' + 
     'Possui sete salões com belíssimas formas arquitetônicas, esculpidas pelo trabalho da água durante milênios.' },
     { img: InhoJpg, name: 'Inhotim', description: 'O Instituto Inhotim é o maior centro de arte contemporânea a céu' + 
@@ -63,10 +63,6 @@ const Passeios = () => {
     { img: TiraJpg, name: 'Tiradentes', description: 'O colorido dos casarões coloniais de Tiradentes, em Minas Gerais,' + 
     'inebria os visitantes que chegam à região. Aos pés da Serra de São José, a cidade preserva a história e arquitetura' + 
     'do século XVIII em suas construções, igrejas e cenários bucólicos' },
-    { img: SantJpg, name: 'Gruta Rei do Mato', description: 'Está localizada na cidade de Sete Lagoas MG' + 
-    'e juntamente com as Gruta da Lapinha e Gruta do Maquiné faz parte da Rota das Grutas Peter Lund.' + 
-    'A Gruta Rei do Mato possui 998 metros de extensão, ' + 
-    'ela é considerada uma das mais belas grutas do país e considerada uma das 50 maiores cavernas de Minas Gerais.' },
   ];
 
   return (

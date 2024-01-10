@@ -32,6 +32,18 @@ import SliderGalery from '../../components/SliderGalery'
 import Footer from '../../components/Footer'
 
 
+import BHJpg from '../../assets/img/imgtour/destinoBeloHorizonte.jpg';
+import CapJpg from '../../assets/img/imgtour/destinoCapitolio.jpg';
+import GrutaJpg from '../../assets/img/imgtour/destinoGrutaMaquine.jpg';
+import InhoJpg from '../../assets/img/imgtour/destinoInhotim.jpg';
+import MariJpg from '../../assets/img/imgtour/destinoMariana.jpg';
+import OuroJpg from '../../assets/img/imgtour/destinoOuroPreto.jpg';
+import SabaJpg from '../../assets/img/imgtour/destinoSabara.jpg';
+import SaoJpg from '../../assets/img/imgtour/destinoSaoJoaoDelRei.jpg';
+import TiraJpg from '../../assets/img/imgtour/destinoTiradentes.png';
+import GrutaMatoPng from '../../assets/img/grutarei-mato.png'
+import TransferJpg from '../../assets/img/Transfer.jpg'
+
 
 const Home = () => {
   return (
@@ -45,32 +57,63 @@ const Home = () => {
 <SectionUs>
 <h1>Nossos Roteiros</h1>
 <p>Oferecemos passeios diários com transporte e guia de turismo saindo de Belo Horizonte para cidades <br />
-  históricas próximas e também pacotes de duração maior com pernoites inclusas. <br />
+  históricas próximas e também tour em cenários com beleza natural. <br />
   Aceitamos pagamentos em cartão de crédito e boleto. Dividimos em até 12x no cartão.</p> <br />
 </SectionUs>
 
 <SectionProduct>
 
 <article className='art-cort'>
-          <img className='img-cort'  src={IMG1PNG} alt="" />
+          <img className='img-cort'  src={OuroJpg} alt="" />
         <h3>Ouro Preto</h3> 
  
 
         </article>
 
         <article className='art-persi'>
-          <img src={IMG2PNG} alt="" />
+          <img src={BHJpg } alt="" />
+         <h3>Belo Horizonte</h3>
+       </article>
+
+       <article className='art-persi'>
+          <img src={CapJpg} alt="" />
+         <h3>Congonhas</h3>
+       </article>
+
+
+       <article className='art-persi'>
+          <img src={InhoJpg} alt="" />
          <h3>Inhotim</h3>
-       
+       </article>
 
-        </article>
+       <article className='art-persi'>
+          <img src={MariJpg} alt="" />
+         <h3>Mariana</h3>
+       </article>
 
+        
         <article className='art-service'>
-          <img  src={IMG3PNG} alt="" />
-          <h3>Mariana</h3>
-       
+          <img  src={SabaJpg} alt="" />
+          <h3>Sabará</h3>
+       </article>
 
-        </article>
+       <article className='art-service'>
+          <img  src={SaoJpg} alt="" />
+          <h3>São João Del Rei</h3>
+       </article>
+
+
+       <article className='art-service'>
+          <img  src={TiraJpg} alt="" />
+          <h3>Tiradentes</h3>
+       </article>
+
+       <article className='art-service'>
+          <img  src={GrutaMatoPng} alt="" />
+          <h3>Gruta Maquiné/Rei do Mato</h3>
+       </article>
+
+
 
         <div className='sec-pass'>
           <Link to="/passeios"><button>Confira nosso roteiro completo</button></Link>
@@ -79,9 +122,9 @@ const Home = () => {
         </div>
 
         <SectionAbout>
-          <h1>Quem Somos</h1>
+          {/* <h1>Nossa Empresa</h1> */}
 
-          <p>Bem-vindo à Villa Minas, sua agência de turismo receptivo dedicada a proporcionar 
+          {/* <p>Bem-vindo à Villa Minas, sua agência de turismo receptivo dedicada a proporcionar 
             experiências inesquecíveis nas fascinantes cidades históricas de Minas Gerais. 
             Com um profundo amor pela cultura, história e beleza natural dessa região, a Vila Minas 
             tem o compromisso de tornar sua viagem uma jornada autêntica e enriquecedora.
@@ -89,10 +132,12 @@ const Home = () => {
             e cultural de Minas Gerais. Acreditamos que cada cidade tem uma história única a contar,
             proporcionando uma imersão profunda na riqueza cultural que permeia cada rua, igreja 
             e praça dessas cidades históricas. 
-           </p>
+           </p> */}
 
            <div className='img-us'>
-            <img src={CardiviaJpg} alt="" />
+           
+            <img className='cardiva' src={CardiviaJpg} alt="" />
+            <img className='precos' src={TransferJpg} alt="" />
            </div>
 
         </SectionAbout>
@@ -156,9 +201,7 @@ const Home = () => {
 
 
 <SectionSlider>
-<h2>Nossos Destinos</h2>
 
-<Carrousel />
 </SectionSlider>
 
 <SectionInsta>

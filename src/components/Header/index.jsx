@@ -60,7 +60,8 @@ const Header = () => {
         </ul>
       </nav>
       <div className='social-icons'>
-        <Link to=""><FaSquareInstagram size={'30px'} style={{
+        <Link to="https://www.instagram.com/villaminasturismo?igsh=MWJnbzBrdmp5azVjYQ%3D%3D&utm_source=qr">
+          <FaSquareInstagram size={'30px'} style={{
           display: 'flex', alignItems: 'center', color: 'black'
           }} /></Link>
           
@@ -80,7 +81,7 @@ const Header = () => {
               right: '8%',
               cursor: 'pointer',
               position: 'absolute',
-              color: '#7a0d25',
+              color: '#1d3a5d',
             }}
             onClick={toggleMenuGridR}
           />
@@ -93,7 +94,7 @@ const Header = () => {
               right: '75%',
               cursor: 'pointer',
               position: 'absolute',
-              color: '#7a0d25',
+              color: '#1d3a5d',
             }}
             onClick={toggleMenuGridR}
           />

@@ -2,7 +2,9 @@ import styled from "styled-components"
 
 export const ContentUs = styled.div`
 
+
 .galery-us {
+   
     display: flex;
     justify-content: center;
 
@@ -35,13 +37,15 @@ export const ContentUs = styled.div`
         position: absolute;
         margin-top: 250px;
         font-size: 18px;
+        text-align: center;
+        line-height: 150%;
 
         
     }
 
     img {
         max-width: 500px;
-        margin-top: 400px;
+        margin-top: 520px;
         border-radius: 8px;
         margin-bottom: 50px;
 

@@ -24,6 +24,7 @@ export const SectionUs = styled.section`
         text-align: center;
         margin-top: 20px;
         font-size: 20px;
+        line-height: 160%;
 
     }
 
@@ -40,7 +41,12 @@ export const SectionUs = styled.section`
 export const SectionProduct = styled.section`
         display: flex;
         width: 100vw;
-       justify-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        
 
        @media screen and (max-width: 768px){
       width: 100%;
@@ -57,7 +63,7 @@ export const SectionProduct = styled.section`
 
         img {
       width: 300px;
-      height: 300px;
+      height: 280px;
       border-radius: 8px;
       transition: transform 0.3s ease;
       margin-bottom: 5px;
@@ -88,11 +94,13 @@ export const SectionProduct = styled.section`
 
     }
 
+    
+
    
     .sec-pass {
       display: flex;
       position: absolute;
-      margin-top: 550px;
+      margin-top: 1050px;
       gap: 10px;
 
 
@@ -119,7 +127,7 @@ export const SectionProduct = styled.section`
         flex-direction: column;
         justify-content: center;
         margin-left: 100px;
-        margin-top: 1500px;
+        margin-top: 4400px;
         font-size: 20px;
 
       }
@@ -131,21 +139,30 @@ export const SectionAbout = styled.section`
   display: flex;
   width: 100vw;
   background-color: #1d3a5d;
-  margin-top: 700px;
+  margin-top: 1200px;
   padding-bottom: 80px;
   height: 600px;
   justify-content: space-around;
   position: absolute;
 
+  .img-us {
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+  }
+
+
+
   @media screen and (max-width: 768px){
       width: 100%;
       flex-direction: column;
-      margin-top: 2200px;
+      margin-top: 5100px;
+      
 
       .img-us {
         img {
           flex-direction: column;
-          max-width: 350px;
+          max-width: 400px;
           display: flex;
           justify-content: center;
           margin-left: 20px;
@@ -154,6 +171,12 @@ export const SectionAbout = styled.section`
          
          
         }
+
+        .cardiva {
+          display: none;
+        }
+
+      
       }
 
     
@@ -179,14 +202,14 @@ export const SectionAbout = styled.section`
   }
 
   p {
-    display: flex;
+    /* display: flex;
     margin-top: 200px;
     position: absolute;
     margin-right: 470px;
     max-width: 500px;
     color: #fff;
     line-height: 150%;
-    font-size: 18px;
+    font-size: 18px; */
 
     @media screen and (max-width: 768px) {
       display: none;
@@ -299,27 +322,18 @@ h2 {
 `
 
 export const SectionSlider = styled.section`
-background-color: #1d3a5d;
-width: 100vw;
-height: 550px;
+
 
 @media screen and (max-width: 768px) {
   flex-direction: column;
 
-  h2 {
-    margin-bottom: 50px;
-  }
+ 
 
 }
 
- h2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  padding-top: 50px;
-  color: #fff;
-  font-size: 35px;
- }
+
+
+
 `
 
 export const SectionInsta = styled.section`
