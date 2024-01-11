@@ -13,6 +13,13 @@ export const ContainerHeader = styled.div`
   z-index: 1000;
   padding-top: 40px;
 
+  @media screen and (max-width: 1089px) {
+         a img {
+          margin-left: 100px;
+         }
+        }
+
+
   .menu-responsi {
     display: none;
     background-color: #ffffff;
@@ -27,6 +34,8 @@ export const ContainerHeader = styled.div`
           
             
         }
+
+       
 
     ul li {
       margin-left: 50px;
@@ -89,6 +98,8 @@ export const ContainerHeader = styled.div`
    align-items: center;
    margin-right: 300px;
 
+   
+
    @media screen and (max-width: 768px) {
     display: none;
    }
@@ -114,6 +125,12 @@ export const ContainerHeader = styled.div`
 .social-icons {
   display: flex;
   gap: 20px;
+
+  @media screen and (max-width: 1089px) {
+         margin-right: -900px;
+         position: absolute;
+      
+        }
 
   @media (max-width: 768px) {
     display: flex;

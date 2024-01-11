@@ -13,6 +13,11 @@ export const StyledSlickSlider = styled(Slider)`
     justify-content: center;
     align-items: center;
     height: 800px;
+
+    @media screen and (max-width: 1089px) {
+         height: 600px;
+      
+        }
   }
 
   img {

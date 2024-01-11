@@ -103,6 +103,13 @@ export const SectionProduct = styled.section`
       margin-top: 1050px;
       gap: 10px;
 
+      @media screen and (max-width: 1089px) {
+        margin-top: 1500px;
+      
+        }
+
+     
+
 
       button {
         width: 200px;
@@ -152,6 +159,11 @@ export const SectionAbout = styled.section`
     width: 250px;
   }
 
+
+  @media screen and (max-width: 1089px) {
+         margin-top: 1650px;
+      
+        }
 
 
   @media screen and (max-width: 768px){
@@ -234,12 +246,23 @@ export const SectionServices =  styled.section`
   display: flex;
   justify-content: center;
 
+  @media screen and (max-width: 1089px) {
+         display: flex;
+         justify-content: center;
+      
+        }
+
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
 
 
 .card-services {
+
+  @media screen and (max-width: 1089px) {
+         gap: 50px;
+      
+        }
   gap: 100px;
   display: flex;
   justify-content: center;
