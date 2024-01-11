@@ -148,7 +148,8 @@ export const SectionAbout = styled.section`
   .img-us {
     display: flex;
     justify-content: center;
-    margin-left: 150px;
+    justify-content: center;
+    width: 250px;
   }
 
 
@@ -165,8 +166,8 @@ export const SectionAbout = styled.section`
           max-width: 400px;
           display: flex;
           justify-content: center;
-          margin-left: 20px;
-          max-height: 400px;
+          margin-left: 290px;
+        
 
          
          
