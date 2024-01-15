@@ -46,6 +46,20 @@ export const SectionProduct = styled.section`
         flex-direction: row;
         gap: 20px;
         justify-content: center;
+
+        @media screen and (max-width: 1700px) {
+         .btn-pass {
+          margin-top: 450px;
+         }
+      
+        }
+
+        @media screen and (max-width: 1289px) {
+            .btn-pass {
+              margin-top: 400px;
+            }
+
+        }
         
 
        @media screen and (max-width: 768px){
@@ -105,6 +119,8 @@ export const SectionProduct = styled.section`
 
       @media screen and (max-width: 1089px) {
         margin-top: 1500px;
+
+    
       
         }
 
@@ -149,19 +165,72 @@ export const SectionAbout = styled.section`
   margin-top: 1200px;
   padding-bottom: 80px;
   height: 600px;
-  justify-content: space-around;
+  justify-content: center;
   position: absolute;
+ 
 
   .img-us {
     display: flex;
     justify-content: center;
-    justify-content: center;
-    width: 250px;
+    margin-left: 100px;
+    
+    
   }
+
+  img {
+    max-width: 450px;
+    border-radius: 8px;
+  }
+
+
+
+  @media screen and (max-width: 1700px) {
+        margin-top: 1650px;
+      
+        }
+
+  @media screen and (max-width: 1289px) {
+         margin-top: 1550px;
+         
+       
+
+          .img-us {
+            margin-left: 140px;
+          }
+
+         .img-us .cardiva{
+          
+         
+         }
+
+         img {
+     
+          display: flex;
+          justify-content: center;
+          padding: 30px;
+          max-width: 320px;
+          
+          
+         }
+      
+        }
+
+      
+
+ 
 
 
   @media screen and (max-width: 1089px) {
          margin-top: 1650px;
+
+       
+        }
+
+        @media screen and (max-width: 1700px) {
+         .img-us .cardiva{
+         
+          display: none;
+         }
       
         }
 
@@ -175,19 +244,17 @@ export const SectionAbout = styled.section`
       .img-us {
         img {
           flex-direction: column;
-          max-width: 400px;
+          max-width: 350px;
           display: flex;
           justify-content: center;
-          margin-left: 290px;
+          margin-left: 50px;
         
 
          
          
         }
 
-        .cardiva {
-          display: none;
-        }
+      
 
       
       }

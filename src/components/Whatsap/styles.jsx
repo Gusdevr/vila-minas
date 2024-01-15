@@ -20,6 +20,15 @@ export const WhatsContainer = styled.div`
   }
 }
 
+@media screen and (max-width: 1700px) {
+         margin-right: 50px;
+
+         img {
+          width: 180px;
+         }
+      
+        }
+
 @media screen and (max-width: 1089px) {
          margin-right: 40px;
 

@@ -1,10 +1,18 @@
 // SliderGalery.jsx
 import React, { useRef, useEffect } from 'react';
 import { StyledSlickSlider } from './styles';  // Importe StyledSlickSlider
-import SliderOneJpg from '../../assets/img/ouropreto3.jpeg';
-import SliderTwoJpg from '../../assets/img/inhotim2.jpg';
-import SliderTreeJpg from '../../assets/img/ouropretos.jpg';
-import SliderFourJpg from '../../assets/img/ouropretou2.jpg';
+import SliderOneJpg from '../../assets/img/hist.jpg';
+import SliderTwoJpg from '../../assets/img/Inhoo.jpg';
+import SliderTreeJpg from '../../assets/img/City.jpg';
+import SliderFourJpg from '../../assets/img/Marii.jpg';
+import SliderFiveJpg from '../../assets/img/Grutt.jpg';
+import SliderSixJpg from '../../assets/img/Ourr.jpg';
+import SliderSevenJpg from '../../assets/img/Sabb.jpg';
+import SliderEightJpg from '../../assets/img/Saojoo.jpg';
+import SliderNineJpg from '../../assets/img/Tiradd.jpg';
+
+
+
 
 const CustomPrevArrow = ({ onClick }) => (
   <button className="custom-arrow" onClick={onClick}>
@@ -57,6 +65,21 @@ const SliderGalery = () => {
       </div>
       <div>
         <img src={SliderTwoJpg} alt="Image 3" />
+      </div>
+      <div>
+        <img src={SliderFiveJpg} alt="Image 3" />
+      </div>
+      <div>
+        <img src={SliderSixJpg} alt="Image 3" />
+      </div>
+      <div>
+        <img src={SliderSevenJpg} alt="Image 3" />
+      </div>
+      <div>
+        <img src={SliderEightJpg} alt="Image 3" />
+      </div>
+      <div>
+        <img src={SliderNineJpg} alt="Image 3" />
       </div>
     </StyledSlickSlider>
   );

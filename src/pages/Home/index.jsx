@@ -25,6 +25,15 @@ import TourPng from '../../assets/img/iconservices/passeios.png'
 import TransPng from '../../assets/img/iconservices/van.png'
 import WhatsapButtonPng from '../../components/Whatsap'
 
+import DestImg from '../../assets/img/iconservices/Destinos.jpg'
+import ServiImg from '../../assets/img/iconservices/Serviccos.jpg'
+import ValImg from '../../assets/img/iconservices/Valores.jpg'
+
+import DestImg2 from '../../assets/img/iconservices/Destinos2.jpg'
+import ServiImg2 from '../../assets/img/iconservices/Serviccos2.jpg'
+import ValImg2 from '../../assets/img/iconservices/Valores2.jpg'
+
+
 import InstaPng from '../../assets/icons/instagram.png'
 
 import Header from '../../components/Header'
@@ -116,7 +125,7 @@ const Home = () => {
 
 
         <div className='sec-pass'>
-          <Link to="/passeios"><button>Confira nosso roteiro completo</button></Link>
+          <Link to="/passeios"><button className='btn-pass'>Confira nosso roteiro completo</button></Link>
           {/* <a href=""><button>Pacotes de Viagem</button></a> */}
 
         </div>
@@ -136,8 +145,9 @@ const Home = () => {
 
            <div className='img-us'>
            
-            <img className='cardiva' src={CardiviaJpg} alt="" />
-            <img className='precos' src={TransferJpg} alt="" />
+            <img className='cardiva' src={DestImg2} alt="" />
+            <img className='precos' src={ServiImg2} alt="" />
+            <img className='precos' src={ValImg2} alt="" />
            </div>
 
         </SectionAbout>

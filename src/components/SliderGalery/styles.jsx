@@ -7,6 +7,11 @@ import 'slick-carousel/slick/slick-theme.css';
 export const StyledSlickSlider = styled(Slider)`
   width: 100vw;
 
+  @media screen and (max-width: 768px) {
+
+    margin-bottom: 320px;
+
+}
 
   .slick-slide {
     display: flex;
@@ -20,12 +25,32 @@ export const StyledSlickSlider = styled(Slider)`
         }
   }
 
+
+  
+
   img {
     max-width: 100%;
     height: auto;
     max-height: 100%;
     object-fit: cover;
-    margin-bottom: 150px;
+    margin-bottom: -320px;
+
+    @media screen and (max-width: 1700px) {
+      margin-bottom: 120px;
+      
+        }
+
+    @media screen and (max-width: 768px) {
+      
+      margin-bottom: 220px;
+ 
+  }
+
+  @media screen and (max-width: 1289px) {
+
+margin-bottom: -120px;
+
+}
 
   }
 

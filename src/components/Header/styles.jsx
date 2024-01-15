@@ -19,6 +19,14 @@ export const ContainerHeader = styled.div`
          }
         }
 
+        @media screen and (max-width: 1289px) {
+          img {
+            margin-left: 100px;
+          }
+        }
+
+     
+
 
   .menu-responsi {
     display: none;
@@ -126,10 +134,24 @@ export const ContainerHeader = styled.div`
   display: flex;
   gap: 20px;
 
+  @media screen and (max-width: 1700px) {
+         margin-right: 30px;
+
+       
+      
+        }
+
   @media screen and (max-width: 1089px) {
          margin-right: -900px;
          position: absolute;
       
+        }
+
+        @media screen and (max-width: 1289px) {
+          position: absolute;
+          margin-left: 1100px;
+          
+          
         }
 
   @media (max-width: 768px) {
