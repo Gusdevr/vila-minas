@@ -236,10 +236,18 @@ export const SectionAbout = styled.section`
 
 
   @media screen and (max-width: 768px){
-      width: 100%;
+   
       flex-direction: column;
       margin-top: 5100px;
+      justify-content: center;
       
+      
+      img {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 5%;
+      }
 
       .img-us {
         img {
@@ -247,9 +255,10 @@ export const SectionAbout = styled.section`
           max-width: 350px;
           display: flex;
           justify-content: center;
-          margin-left: 50px;
+          
         
-
+        
+        
          
          
         }
