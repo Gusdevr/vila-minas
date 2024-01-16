@@ -31,7 +31,7 @@ export const SectionUs = styled.section`
     @media screen and (max-width: 768px){
       width: 100%;
       flex-direction: column;
-      margin-top: -350px;
+      margin-top: -450px;
       
     }
 
@@ -363,7 +363,7 @@ h2 {
   font-weight: 700;
 
   @media screen and (max-width: 768px) {
-   margin-top: -900px;
+   margin-top: -750px;
    margin-left: 50px;
   }
 

@@ -25,7 +25,8 @@ export const ContainerHeader = styled.div`
           }
         }
 
-     
+
+    
 
 
   .menu-responsi {
@@ -136,8 +137,6 @@ export const ContainerHeader = styled.div`
 
   @media screen and (max-width: 1700px) {
          margin-right: 30px;
-
-       
       
         }
 

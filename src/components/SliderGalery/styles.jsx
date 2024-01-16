@@ -8,7 +8,7 @@ export const StyledSlickSlider = styled(Slider)`
   width: 100vw;
 
   @media screen and (max-width: 768px) {
-
+   
     margin-bottom: 320px;
 
 }
@@ -41,7 +41,7 @@ export const StyledSlickSlider = styled(Slider)`
         }
 
     @media screen and (max-width: 768px) {
-      
+      margin-top: -120px;
       margin-bottom: 220px;
  
   }
