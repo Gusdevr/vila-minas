@@ -480,6 +480,7 @@ img {
  background-color: #1d3a5d;
  color: #fff;
  font-size: 18px;
+ cursor: pointer;
 
  @media screen and (max-width: 768px) {
   margin-left: 125px;

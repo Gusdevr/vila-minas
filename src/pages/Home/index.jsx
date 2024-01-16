@@ -218,8 +218,8 @@ const Home = () => {
 
   <article>
     <span>Confira nossa página no Instagram</span>
-    <img style={{width: '345px'}} src={  InstaPng } alt="" />
-    <button className='btn-insta'>Acessar</button>
+   <a href="https://www.instagram.com/villaminasturismo/"> <img style={{width: '345px'}} src={  InstaPng } alt="" /> </a>
+   <a href="https://www.instagram.com/villaminasturismo/"> <button className='btn-insta'>Acessar</button> </a>
   </article>
 
 </SectionInsta>
