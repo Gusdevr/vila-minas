@@ -75,6 +75,10 @@ export const SectionProduct = styled.section`
         justify-content: center;
         display: grid;
 
+        @media screen and (max-width: 768px) {
+          
+        }
+
         img {
       width: 300px;
       height: 280px;

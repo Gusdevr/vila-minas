@@ -13,6 +13,8 @@ export const ContainerHeader = styled.div`
   z-index: 1000;
   padding-top: 40px;
 
+ 
+
   @media screen and (max-width: 1089px) {
          a img {
           margin-left: 100px;
@@ -39,7 +41,7 @@ export const ContainerHeader = styled.div`
     margin-right: 25px;
 
     @media screen and (max-width: 768px) {
-            margin-top: 90px;
+            margin-top: 80px;
           
             
         }
