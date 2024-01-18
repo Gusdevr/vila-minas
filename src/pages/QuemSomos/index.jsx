@@ -30,12 +30,11 @@ const QuemSomos = () => {
           oferecendo translados, roteiros e passeios exclusivos ou compartilhados. 
           As experiências exclusivas vão além dos destinos populares, enquanto os passeios 
           compartilhados têm saídas diárias conforme a demanda. Destacamos nossos passeios 
-          exclusivos com itinerários mais abrangentes e introduzimos roteiros com hospedagem 
-          nas cidades históricas, revelando os tesouros ocultos de cada região. Em Minas Gerais, 
-          não faltam lugares para desfrutar de um bom café com pão de queijo. Venha explorar 
-          esse rico patrimônio conosco!</p>
+          exclusivos com itinerários e roteiros nas cidades históricas, revelando os tesouros 
+          ocultos de cada região. Em Minas Gerais, não faltam lugares para desfrutar de um bom 
+          café com pão de queijo!</p>
         </div>  
-
+                    
        <MapaEmbed />
 
        <Footer />
