@@ -144,10 +144,14 @@ const Home = () => {
            </p> */}
 
            <div className='img-us'>
-           
-            <img className='cardiva' src={DestImg2} alt="" />
-            <img className='precos' src={ServiImg2} alt="" />
-            <img className='precos' src={ValImg2} alt="" />
+           <img className='precos' src={ValImg2} alt="" />
+           <img className='precos' src={DestImg2} alt="" />    
+           <img className='cardiva' src={ServiImg2} alt="" />
+          
+          
+        
+      
+        
            </div>
 
         </SectionAbout>

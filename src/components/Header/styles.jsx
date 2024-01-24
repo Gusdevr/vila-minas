@@ -81,7 +81,9 @@ export const ContainerHeader = styled.div`
     flex-direction: column;
 
     img {
-      margin-top: npm5px;
+      margin-top: 5px;
+      display: flex;
+      margin-right: 75px;
     }
   }
 

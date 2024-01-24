@@ -24,7 +24,8 @@ export const SectionUs = styled.section`
         text-align: center;
         margin-top: 20px;
         font-size: 20px;
-        line-height: 160%;
+        line-height: 140%;
+        max-width: 380px;
 
     }
 
@@ -262,13 +263,17 @@ export const SectionAbout = styled.section`
           
         
         
-        
-         
          
         }
 
       
 
+      
+      }
+
+
+       .precos{
+        display: none;
       
       }
 
