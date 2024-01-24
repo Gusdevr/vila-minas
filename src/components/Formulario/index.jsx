@@ -17,7 +17,7 @@ function ContactForm() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://formspree.io/f/xayrydvn', formData);
+      const response = await axios.post('https://formspree.io/f/xayrqjyp', formData);
 
       if (response.status === 200) {
         alert('E-mail enviado com sucesso!')
