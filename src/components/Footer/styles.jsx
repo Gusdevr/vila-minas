@@ -102,9 +102,14 @@ export const ContainerFooter =  styled.footer`
             margin-top: 450px;
             color: #fff;
          
-            span {
+            .poli-link {
                 margin-left: 5px;
                 color: #fff;
+                
+
+                :hover {
+                    color: green;
+                }
             
             }
 
