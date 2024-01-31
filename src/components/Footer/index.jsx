@@ -47,7 +47,7 @@ São Benedito - Santa Luzia MG
 
 <div className='copy-footer'>
 <p>&copy;2023 Villa Minas - Todos direitos reservados.</p>
-<Link to="/politicas" target="_blank"><span>Políticas de Privacidade</span></Link>
+<a href="/politicas" target='blank'><span>Políticas de Privacidade</span></a>
 </div>
 
     </ContainerFooter>
