@@ -7,9 +7,11 @@ export const ContainerHome = styled.div`
 `
 
 export const SectionUs = styled.section`
-
+  display: flex;
+  justify-content: center;
 
     h1 {
+        position: absolute;
         display: flex;
         justify-content: center;
         margin-top: 100px;
@@ -19,13 +21,16 @@ export const SectionUs = styled.section`
     }
 
     p {
+     
         display: flex;
-        justify-content: center;
         text-align: center;
-        margin-top: 20px;
+        justify-content: center;
+        margin-top: 220px;
         font-size: 20px;
         line-height: 140%;
         max-width: 380px;
+    
+       
 
     }
 
@@ -272,12 +277,6 @@ export const SectionAbout = styled.section`
       }
 
 
-       .precos{
-        display: none;
-      
-      }
-
-    
       
     }
 

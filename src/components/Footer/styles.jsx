@@ -101,6 +101,12 @@ export const ContainerFooter =  styled.footer`
             text-align: center;
             margin-top: 450px;
             color: #fff;
+         
+            span {
+                margin-left: 5px;
+                color: #fff;
+            
+            }
 
             @media screen and (max-width: 768px) {
                 display: flex;

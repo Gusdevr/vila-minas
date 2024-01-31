@@ -5,7 +5,7 @@ import { ContainerFooter } from './styles'
 import VilaPngBranco from '../../assets/img/Villaminaslogob.png'
 import ParceirosJpg from '../../assets/img/parceiross.jpg'
 import MinasLogPng from '../../assets/img/minas-flag.png'
-
+import { Link } from 'react-router-dom'
 
 import 
 { FaSquareFacebook,
@@ -47,7 +47,9 @@ São Benedito - Santa Luzia MG
 
 <div className='copy-footer'>
 <p>&copy;2023 Villa Minas - Todos direitos reservados.</p>
+<Link to="/politicas" target="_blank"><span>Políticas de Privacidade</span></Link>
 </div>
+
     </ContainerFooter>
   )
 }

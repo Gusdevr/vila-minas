@@ -6,6 +6,7 @@ import Passeios from "./src/pages/Passeios"
 import Promocao from "./src/pages/Promocao"
 import Contato from "./src/pages/Contato"
 import Galeria from "./src/pages/Galeria"
+import Politicas from "./src/pages/Politicas"
 
 const Router = () => {
     return (
@@ -17,6 +18,7 @@ const Router = () => {
                 <Route path='/promocao' element={<Promocao />} />
                 <Route path='/contato' element={<Contato />} />
                 <Route path='/galeria' element={<Galeria />} />
+                <Route path='/politicas' element={<Politicas />} />
             
             </Routes>
         </BrowserRouter>
