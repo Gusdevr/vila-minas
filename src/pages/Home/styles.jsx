@@ -14,10 +14,11 @@ export const SectionUs = styled.section`
         position: absolute;
         display: flex;
         justify-content: center;
-        margin-top: 100px;
+        margin-top: -350px;
         font-size: 40px;
         color: #1d3a5d;
         font-weight: 700;
+        margin-left: 35px;
     }
 
     p {

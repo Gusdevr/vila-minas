@@ -67,6 +67,7 @@ const Home = () => {
 <h1>Nossos Roteiros</h1>
 <p>Oferecemos passeios diários com transporte e guia de turismo saindo de Belo Horizonte para cidades <br />
   históricas próximas e também tour em cenários com beleza natural. <br />
+  Os melhores e mais belo destinos de Minas como Ouro Preto e Mariana com comodidade, conforto e acompanhamento.<br />
   Aceitamos pagamentos em cartão de crédito e boleto. Dividimos em até 12x no cartão.</p> <br />
 </SectionUs>
 

@@ -20,6 +20,7 @@ export const ContainerPromo = styled.div`
 
         h2 {
             font-size: 40px;
+            line-height: 150%;
         }
 
         h5 {
