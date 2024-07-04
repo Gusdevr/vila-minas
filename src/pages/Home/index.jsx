@@ -2,6 +2,8 @@ import React from 'react'
 import Carrousel from '../../components/Carrousel'
 import { Link } from 'react-router-dom'
 
+import CookieAlert from '../../components/AlertCookie'
+
 import 
 { 
   ContainerHome, 
@@ -230,6 +232,7 @@ const Home = () => {
 </SectionInsta>
 
     <Footer />
+    <CookieAlert/>
     </ContainerHome>
     
   )

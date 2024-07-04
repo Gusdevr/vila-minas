@@ -7,6 +7,7 @@ import Promocao from "./src/pages/Promocao"
 import Contato from "./src/pages/Contato"
 import Galeria from "./src/pages/Galeria"
 import Politicas from "./src/pages/Politicas"
+import ReturnPolicy from "./src/components/ReturnPolicy"
 
 const Router = () => {
     return (
@@ -19,6 +20,7 @@ const Router = () => {
                 <Route path='/contato' element={<Contato />} />
                 <Route path='/galeria' element={<Galeria />} />
                 <Route path='/politicas' element={<Politicas />} />
+                <Route path='/devolucoes' element={<ReturnPolicy />} />
             
             </Routes>
         </BrowserRouter>

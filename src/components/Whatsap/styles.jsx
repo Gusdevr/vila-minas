@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const WhatsContainer = styled.div`
   position: fixed;
-  bottom: 20px; 
+  bottom: 40px; 
   right: 20px; 
   z-index: 9999;
   cursor: pointer;

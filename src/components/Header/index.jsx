@@ -57,7 +57,7 @@ const Header = () => {
           <Link to="/promocao"><li>Promoção</li></Link>
           {/* <a href="galeria"><li>Galeria</li></a> */}
          <Link to="/contato"><li>Contato</li></Link>
-         <Link to="/politicas" target='blank'><li>Politicas</li></Link>
+         <Link to="/devolucoes" target='blank'><li>Politicas</li></Link>
         </ul>
       </nav>
       <div className='social-icons'>
