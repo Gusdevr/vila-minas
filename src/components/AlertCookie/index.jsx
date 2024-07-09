@@ -16,11 +16,12 @@ const AlertContainer = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: #4caf50;
+  background-color: ${props => props.reject ? '#f44336' : '#4caf50'};
   color: white;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+  margin-left: 10px;
 `;
 
 const CookieAlert = () => {
@@ -38,14 +39,22 @@ const CookieAlert = () => {
     setShowAlert(false);
   };
 
+  const rejectCookies = () => {
+    localStorage.setItem('cookiesAccepted', 'false');
+    setShowAlert(false);
+  };
+
   if (!showAlert) return null;
 
   return (
     <AlertContainer>
       <span>Este site usa cookies para melhorar a experiência do usuário. Ao continuar a navegar, você concorda com o uso de cookies.</span>
-      <Button onClick={acceptCookies}>Aceitar</Button>
+      <div>
+        <Button onClick={acceptCookies}>Aceitar</Button>
+        <Button reject onClick={rejectCookies}>Rejeitar</Button>
+      </div>
     </AlertContainer>
   );
 };
 
-export default CookieAlert
+export default CookieAlert;
